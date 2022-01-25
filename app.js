@@ -1,6 +1,6 @@
 const express = require('express')
 const checklistsRouter = require('./src/routes/checklist')
-
+require('./config/database') //sem variável o node roda o arquivo
 const app = express()
 
 app.use(express.json())

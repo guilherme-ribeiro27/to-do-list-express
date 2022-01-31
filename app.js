@@ -1,3 +1,9 @@
+/**
+ * This is the main script of the project
+ * It's where all the website backed becomes
+ * The routes and middlewares are set here
+ */
+
 const express = require('express')
 const path = require('path')
 
